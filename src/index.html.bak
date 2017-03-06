@@ -95,7 +95,7 @@
 </head>
 <body ng-app="charingApp">
     <header class="global-header">
-        <h1>知识产权民事侵权案件赔偿数额专题1</h1>
+        <h1>知识产权民事侵权案件赔偿数额专题</h1>
     </header>
     <div ui-view class="main-container"></div>
 </body>
