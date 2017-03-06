@@ -1,0 +1,10 @@
+{
+  "requestUrl": "./compen/litigation/getTrend",
+  "contentType": "application/javascript",
+  "statusCode": 200,
+  "data": {
+    "resultCode":"0000",
+    "receiveCase":["0","150","225","200","150","360","170","450","210","300","50","0"],
+    "colseCase":["0","210","120","200","150","300","450","100","210","230","140","0"]
+  }
+}

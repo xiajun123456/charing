@@ -1,0 +1,48 @@
+<div class="litigation-num">
+    <div class="litigation-content" ng-repeat="data in vm.amount">
+        <h3 ng-bind="data.quantity">16,543</h3>
+        <div class="share-con">
+            <span class="litigation-share"
+                  ng-class="{'share-plus':data.trend == 0,'share-reduce':data.trend == 1}"  >
+                <span class="share-icon"></span>
+                <span ng-bind="data.extent">15%</span>
+            </span>
+            <span class="share-name" ng-bind="data.name">
+
+            </span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        <div id="sh-map"></div>
+        <div class="cases-nub-chart">
+            <div class="cases-list">
+                <ul>
+                    <li ng-repeat="cases in vm.caseList"
+                        ng-click="vm.selectCasesClass(cases,$index)"
+                        class="cases-comm"
+                        ng-class="{'cases-directive':cases == vm.nowCases}"    >
+                        <span ng-bind="cases"></span>
+                    </li>
+                </ul>
+            </div>
+            <div id="cases-chart">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div id="case-analysis">
+
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div id="closing-case"></div>
+            </div>
+            <div class="col-xs-6">
+                <div id="closing-standard"></div>
+            </div>
+        </div>
+    </div>
+</div>

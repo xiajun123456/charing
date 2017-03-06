@@ -1,0 +1,12 @@
+{
+  "requestUrl": "./compen/litigation/getClosedWay",
+  "contentType": "application/javascript",
+  "statusCode": 200,
+  "data": {
+    "resultCode":"0000",
+    "judgmentCount":"15%",
+    "InfringementCount":"27%",
+    "mediationCount":"75%",
+    "otherCount":"42%"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "requestUrl": "./compen/litigation/getAmount",
+  "contentType": "application/javascript",
+  "statusCode": 200,
+  "data": {
+      "resultCode":"0000",
+      "rows":[
+        {"id":1,"name":"诉讼标的总额","quantity":"16,543","trend":"1","extent":"25"},
+        {"id":2,"name":"诉讼标的平均额","quantity":"25,666","trend":"1","extent":"32"},
+        {"id":3,"name":"收案案件数","quantity":"15,666","trend":"0","extent":"28"},
+        {"id":4,"name":"案件数量","quantity":"23,887","trend":"0","extent":"22"},
+        {"id":5,"name":"存案案件数","quantity":"35,558","trend":"1","extent":"32"}
+      ]
+  }
+}

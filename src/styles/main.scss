@@ -1,0 +1,28 @@
+@import "bootstrap/_custom-bootstrap";
+
+//import bases
+@import "bases/_variables";
+@import "bases/_mixin";
+@import "bases/_animate";
+@import "bases/_reset";
+
+@import "components/_layout";
+@import "components/_global-header";
+@import "components/_side-menu";
+@import "components/_popup-baiduMap";
+@import "components/_table-view";
+
+//pages
+@import "pages/main/_main";
+@import "pages/copyrighCase/_copyrighCase";
+@import "pages/trademarkCase/_trademarkCase";
+@import "pages/patentCase/_patentCase";
+@import "pages/partySituation/_partySituation";
+@import "pages/expenditure/_expenditure";
+@import "pages/foreign/_foreign";
+@import "pages/mediation/_mediation";
+@import "pages/dashboard/dashboard";
+
+
+
+

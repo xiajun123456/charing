@@ -1,0 +1,11 @@
+<div class="side-menu">
+    <div ng-repeat="data in vm.menus"
+         class="menu-td">
+        <div  ng-bind="data.name"
+              ng-click="activeNav(data)"
+              class="nav-div"
+              ng-class="{active:data.menu_url==vm.activeUrl}"  >
+
+        </div>
+    </div>
+</div>

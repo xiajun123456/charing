@@ -1,0 +1,12 @@
+{
+"requestUrl": "./compen/litigation/getClosedWay",
+"contentType": "application/javascript",
+"statusCode": 200,
+"data": {
+  "resultCode":"0000",
+  "judgment":["300","600","200","100","400"],
+  "mediation":["150","210","360","220","450"],
+  "infringement":["160","220","360","420","100"],
+  "other":["210","240","360","150","410"]
+  }
+}

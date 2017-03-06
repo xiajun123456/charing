@@ -1,0 +1,115 @@
+.litigation-num{
+  width:95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #16171A;
+  color: #CCCCCC;
+  height: 65px;
+  border-radius:3px;
+  padding: 5px 0;
+  &:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .litigation-content{
+    width:20%;
+    height: 65px;
+    float: left;
+    h3{
+      margin: 0;
+      padding: 0;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  .share-con{
+    text-align: center;
+    .litigation-share{
+      font-size: 13px;
+      .share-icon{
+
+      }
+
+    }
+  }
+  .share-plus{
+    color: #23AC3B;
+    .share-icon{
+      border: 7px solid transparent;
+      border-bottom-color:#23AC3B;
+      position: relative;
+      top:-11px;
+      left: -3px;
+    }
+  }
+  .share-reduce{
+    color: #FF2525;
+    .share-icon{
+      border: 7px solid transparent;
+      border-top-color:#FF2525;
+      position: relative;
+      top:11px;
+      left:-3px;
+    }
+  }
+}
+
+#sh-map{
+  width: 100%;
+  height: 400px;
+}
+.cases-nub-chart{
+  margin-left: 35px;
+  ul{
+    &:after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+  .cases-comm{
+    float: left;
+    margin-right: 3px;
+    background: #16171A;
+    border: 1px solid #1A1B1D;
+    color: #393A3C;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+  .cases-directive{
+    background: #212427;
+    color: #616262;
+  }
+  #cases-chart{
+    width: 100%;
+    height: 290px;
+    border: 2px solid #202125;
+    border-radius: 5px;
+    border-top-left-radius:0;
+  }
+}
+
+#case-analysis{
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+#closing-case{
+  width: 100%;
+  height:350px;
+}
+
+#closing-standard{
+  width:100%;
+  height:350px;
+}
